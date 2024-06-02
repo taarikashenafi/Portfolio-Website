@@ -1,0 +1,40 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    padding-top: 100px; /* Adjusted to ensure spacing below the fixed header */
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 30%;
+    box-sizing: border-box;
+}
+
+.green {
+    background-color: #00FF00;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}

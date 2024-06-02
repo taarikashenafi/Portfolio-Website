@@ -1,0 +1,33 @@
+/* src/components/ProjectsPage.css */
+.projects-page {
+    padding-top: 80px; /* to account for the fixed header */
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.project-info {
+    width: 45%;
+    padding: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+}
+
+.green {
+    background-color: #00FF00;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.contact-page {
+    padding-top: 80px; /* to account for the fixed header */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00FF00;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
